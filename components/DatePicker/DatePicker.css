@@ -1,0 +1,81 @@
+.DatePicker {
+    /*background: var(--grey_255);*/
+    border: 1px solid var(--grey_230);
+    border-radius: 8px;
+    display: table;
+    color: var(--grey_10);
+}
+
+.DatePicker-header {
+    display: flex;
+    align-items: center;
+}
+
+.DatePicker-headerYearInput {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+.DatePicker-headerYearInput-day {
+    color: var( --grey_140);
+}
+
+.DatePicker-headerControls {
+    display: flex;
+    align-items: center;
+    min-width: 96px;
+}
+
+.DatePicker-headerControlsElement {
+    padding: 12px;
+    cursor: pointer;
+}
+
+.DatePicker-calendar {
+    font-family: var(--mainFont);
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.DatePicker-calendar td{
+    padding: 8px;
+    text-align: center;
+}
+
+.DatePicker-dayWeek {
+    background-color: var(--grey_250);
+    color: var(--grey_180)
+}
+
+.DatePicker-day {
+    position: relative;
+}
+
+.DatePicker-day--disabled {
+    color: var(--grey_200)
+}
+
+.DatePicker-day--today {
+    color: var(--aqua)
+}
+
+.DatePicker-day--selected:before {
+    content: "";
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: var(--aqua);
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.DatePicker-counterWrapper {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+}

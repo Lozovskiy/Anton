@@ -1,0 +1,26 @@
+.counter {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid var(--grey_255);
+    font-family: var(--mainFont);
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 11px;
+    text-align: center;
+}
+
+.counter--red {
+    color: var(--grey_255);
+    background-color: var(--alert);
+}
+
+.counter--orange {
+    color: var(--grey_10);
+    background-color: var(--warning);
+}
+
+.counter--blue {
+    color: var(--grey_10);
+    background-color: var(--aqua);
+}

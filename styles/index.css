@@ -1,0 +1,20 @@
+
+body{
+/*background-color: gray;*/
+}
+
+.wrapper{
+    margin-bottom: 12px;
+}
+
+svg {
+    display: table;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 24px;
+    padding: 48px;
+}

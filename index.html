@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/variables.css">
+  <link rel="stylesheet" href="./styles/fonts.css">
+  <link rel="stylesheet" href="./components/DatePicker/DatePicker.css">
+  <link rel="stylesheet" href="./components/Counter/Counter.css">
+</head>
+<body>
+    <div class="DatePicker">
+        <div class="DatePicker-header">
+            <div class="DatePicker-headerYearInput bodyLite">
+                <div class="DatePicker-headerYearInput-month">
+                    Вер
+                </div>
+                <div class="DatePicker-headerYearInput-day">
+                    ’21
+                </div>
+                <div class="DatePicker-headerYearInput-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 10L12 14L8 10" stroke="#8C9196" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="DatePicker-headerControls">
+                <div class="DatePicker-headerControlsElement">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 6L9 12L15 18" stroke="#0A0F14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="DatePicker-headerControlsElement">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 6L15 12L9 18" stroke="#0A0F14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="DatePicker-calendar">
+            <table>
+                <thead>
+                    <tr>
+                        <td class="DatePicker-dayWeek">Пн</td>
+                        <td class="DatePicker-dayWeek">Вт</td>
+                        <td class="DatePicker-dayWeek">Ср</td>
+                        <td class="DatePicker-dayWeek">Чт</td>
+                        <td class="DatePicker-dayWeek">Пт</td>
+                        <td class="DatePicker-dayWeek">Сб</td>
+                        <td class="DatePicker-dayWeek">Вс</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="DatePicker-day DatePicker-day--disabled">30</td>
+                        <td class="DatePicker-day DatePicker-day--disabled">31</td>
+                        <td class="DatePicker-day">1</td>
+                        <td class="DatePicker-day">2</td>
+                        <td class="DatePicker-day">3</td>
+                        <td class="DatePicker-day">4</td>
+                        <td class="DatePicker-day">5</td>
+                    </tr>
+                    <tr>
+                        <td class="DatePicker-day">6</td>
+                        <td class="DatePicker-day">7</td>
+                        <td class="DatePicker-day">8
+                            <div class="DatePicker-counterWrapper">
+                                <div class="counter counter--red">
+                                    1
+                                </div>
+                            </div>
+                        </td>
+                        <td class="DatePicker-day">9</td>
+                        <td class="DatePicker-day">10</td>
+                        <td class="DatePicker-day">11</td>
+                        <td class="DatePicker-day">12</td>
+                    </tr>
+                    <tr>
+                        <td class="DatePicker-day">13</td>
+                        <td class="DatePicker-day">14</td>
+                        <td class="DatePicker-day">15</td>
+                        <td class="DatePicker-day">16</td>
+                        <td class="DatePicker-day">
+                            17
+                            <div class="DatePicker-counterWrapper">
+                                <div class="counter counter--red">
+                                    1
+                                </div>
+                            </div>
+                        </td>
+                        <td class="DatePicker-day">18</td>
+                        <td class="DatePicker-day">19</td>
+                    </tr>
+                    <tr>
+                        <td class="DatePicker-day">20</td>
+                        <td class="DatePicker-day DatePicker-day--today">
+                            21
+                            <div class="DatePicker-counterWrapper">
+                                <div class="counter counter--orange">
+                                    3
+                                </div>
+                            </div>
+                        </td>
+                        <td class="DatePicker-day">
+                            22
+                            <div class="DatePicker-counterWrapper">
+                                <div class="counter counter--blue">
+                                    5
+                                </div>
+                            </div>
+                        </td>
+                        <td class="DatePicker-day DatePicker-day--selected">
+                            23
+                            <div class="DatePicker-counterWrapper">
+                                <div class="counter counter--blue">
+                                    4
+                                </div>
+                            </div>
+                        </td>
+                        <td class="DatePicker-day">
+                            24
+                            <div class="DatePicker-counterWrapper">
+                                <div class="counter counter--blue">
+                                    2
+                                </div>
+                            </div>
+                        </td>
+                        <td class="DatePicker-day">25</td>
+                        <td class="DatePicker-day">26</td>
+                    </tr>
+                    <tr>
+                        <td class="DatePicker-day">27</td>
+                        <td class="DatePicker-day">28</td>
+                        <td class="DatePicker-day">29</td>
+                        <td class="DatePicker-day">30</td>
+                        <td class="DatePicker-day DatePicker-day--disabled">1</td>
+                        <td class="DatePicker-day DatePicker-day--disabled">2</td>
+                        <td class="DatePicker-day DatePicker-day--disabled">3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="counter counter--red">1</div>
+</body>
+</html>
