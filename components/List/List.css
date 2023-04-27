@@ -1,0 +1,27 @@
+ul{
+  list-style-type: circle;
+}
+.list{
+  width: 383px;
+  height: 335px;
+  left: 479px;
+  top: 335px;
+  border: 1px solid;
+  border-radius: 8px;
+  border-color: #E6EBF0;
+  overflow-y: scroll;
+  background-color: #FFFF;
+  font-family: 'TT Norms Pro';
+}
+
+li {
+  padding: 10px;
+  max-width: 380px;
+  max-height: 236px;
+}
+
+span{
+  display: flexbox;
+  float:left !important;
+  padding-right: 10px ;
+}

@@ -1,0 +1,180 @@
+
+.H0{
+    width: 604px;
+    height: 112px;
+    left: 48px;
+    top: 132px;
+    font-family: 'TT Norms Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+.H0TTNormsProBold {
+    color:#C8CDD2;
+    width: 604px;
+    height: 112px;
+    left: 48px;
+    top: 132px;
+    font-family: 'TT Norms Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+.H1-Heavy{
+    font-family: 'TT Norms Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+}
+.H1HeavyTTNormsPro{
+    width: 400px;
+    height: 72px;
+    left: 48px;
+    top: 268px;
+    color: #C8CDD2;
+    white-space: nowrap;
+}
+.H1-Lite{
+    font-family: 'TT Norms Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+
+}
+.H1LiteTTNormsProRegular{
+    width: 426px;
+    height: 72px;
+    left: 48px;
+    top: 364px;
+    white-space: nowrap;
+    color: #C8CDD2;
+}
+    .H2-Heavy{
+        font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+.H2HeavyTTNormsProBold{
+    width: 301px;
+    height: 56px;
+    left: 48px;
+    top: 460px;
+    color: #C8CDD2;
+    white-space: nowrap;
+}
+.H2-Lite{
+    font-family: 'TT Norms Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+.H2LiteTTNormsProRеgula{
+    width: 320px;
+    height: 56px;
+    left: 48px;
+    top: 540px;
+    color: #C8CDD2;
+    white-space: nowrap;
+}
+.Headline-Heavy{
+    font-family: 'TT Norms Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    white-space: nowrap;
+}
+.HeadlineHeavyTTNormsProDemibold{
+    font-style: normal;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #C8CDD2;
+    white-space: nowrap;
+}
+.Headline-Lite{
+    font-family: 'TT Norms Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    white-space: nowrap;
+}
+.HeadlineLiteTTNormsProRegular{
+    width: 269px;
+    height: 56px;
+    left: 48px;
+    top: 700px;
+    color: #C8CDD2;
+    white-space: nowrap;
+}
+.Body-Heavy{
+    font-family: 'TT Norms Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+.BodyHeavyTTNormsProDemibold{
+    width: 232px;
+    height: 48px;
+    left: 48px;
+    top: 780px;
+    color: #C8CDD2;
+    white-space: nowrap;
+}
+.Body-Lite{
+    font-family: 'TT Norms Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+.BodyLiteTTNormsProRegular{
+    width: 210px;
+    height: 48px;
+    left: 48px;
+    top: 852px;
+    color: #C8CDD2;
+    white-space: nowrap;
+}
+.Subhead{
+    font-family: 'TT Norms Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.SubheadTTNormsProRegular{
+    width: 185px;
+    height: 40px;
+    left: 48px;
+    top: 924px;
+    color: #C8CDD2;
+    white-space: nowrap;
+}
+.Footnote{
+    font-family: 'TT Norms Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    
+}
+.FootnoteTTNormsProRegular{
+    width: 154px;
+    height: 32px;
+    left: 48px;
+    top: 988px;
+    color: #C8CDD2;
+    white-space: nowrap;
+}
